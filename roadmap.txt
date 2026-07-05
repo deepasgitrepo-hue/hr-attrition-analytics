@@ -1,0 +1,36 @@
+==================================================
+MY 3-PROJECT PORTFOLIO ROADMAP
+==================================================
+Project 1: The HRIS Interaction & Employee Attrition Dashboard
+High-Demand Focus: People Analytics, Data Privacy, and Core HR Metrics. 
+Instead of just analyzing a static HR CSV, simulate an interaction with a modern HR Information System (like Workday or BambooHR) through data pipelines.
+The Tech Stack Workflow
+1.	Python (Data Generation & Mocking): Use the Faker library in Python to generate a realistic, messy HR dataset. Include employee IDs, departments, tenure, salary bands, satisfaction scores, and exit dates.
+2.	SQL (Data Warehouse Modeling): Load the raw data into a local database (PostgreSQL or SQLite). Write complex CTEs and Window Functions to calculate rolling turnover rates, department-by-department attrition, and tenure distributions.
+3.	Power BI / Tableau (Executive Reporting): Connect the BI tool to your local SQL views.
+Key Deliverables on GitHub
+•	A README.md that defines the core business problem: "How can HR reduce turnover among high-performing, short-tenure staff?"
+•	Python cleaning script (etl_hr_pipeline.py).
+•	A .sql file with your engineered database views.
+•	Screenshots of your interactive dashboard (with a link to the live Tableau Public or Power BI web report).
+Project 2: E-Commerce RFM Customer Segmentation & Automation
+High-Demand Focus: Marketing Analytics, Customer Lifecycle Value (LTV), Cloud/Database writebacks. Move past simple descriptive statistics. This project shows you can segment customers to drive revenue.
+The Tech Stack Workflow
+1.	Python (The Analytical Engine): Use Python (pandas and datetime) to load an e-commerce transaction dataset. Calculate RFM Metrics (Recency, Frequency, Monetary value) for each customer.
+2.	SQL (Data Storage & Querying): Export your processed RFM scores into a SQL database. Write an optimized query that categorizes customers into distinct business segments (e.g., “Champions,” “At Risk,” “Hibernating”).
+3.	Power BI / Tableau (Actionable Dashboard): Create a dashboard that displays the monetary impact of each segment. Add dynamic filters allowing a marketing manager to see which specific customer IDs belong to the "At Risk" group.
+Key Deliverables on GitHub
+•	A Jupyter Notebook showing the math and logic behind your customer segment definitions.
+•	Optimized SQL scripts.
+•	A clear business recommendation section in your repository showing exactly how the marketing department should target each group based on your findings.
+Project 3: Supply Chain Operational Efficiency & KPI Pipeline
+High-Demand Focus: Supply Chain Logistics, Advanced Data Engineering for Analysts. The line between data analyst and data engineer is blurred. This project proves you can manage data movement (ETL) and track strict business SLAs.
+The Tech Stack Workflow
+1.	Python (API/ETL Processing): Write a script that simulates pulling daily shipping data from a logistic provider's API. Have the script transform date structures and flags for late deliveries.
+2.	SQL (Analytical Layer): Load the transformed data into your database. Write queries that evaluate vendor performance against SLAs (Service Level Agreements), identify bottleneck routes, and calculate monthly delivery success rates.
+3.	Power BI / Tableau (Operational Control Tower): Build a "Control Tower" dashboard focusing on On-Time In-Full (OTIF) delivery metrics, cost per mile, and a geographic map highlighting high-delay zones.
+Key Deliverables on GitHub
+•	Structured folder organization (/scripts, /sql_queries, /dashboards).
+•	Use of environment variables (.env) in your Python code to hide mock API keys—proving you understand corporate data security standards.
+
+==================================================
