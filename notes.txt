@@ -6,7 +6,9 @@ Project 1: HRIS (HR Attrition Analytics) - CURRENT
 Project 2: Operations Analytics
 Project 3: Sales Analytics
 
-DAY 1 GOAL: Git & Workspace Setup
+DAY 1 GOAL: 
+
+Git & Workspace Setup
 - Task 1: Install VS Code, Git, Python (DONE)
 - Task 2: Configure Git Name/Email (DONE)
 - Task 3: Create GitHub Repo & Clone (DONE)
@@ -14,4 +16,6 @@ DAY 1 GOAL: Git & Workspace Setup
   1. git add .
   2. git commit -m "update notes"
   3. git push
+  
+Build & Export the HR Dataset using Python
 ==================================================
