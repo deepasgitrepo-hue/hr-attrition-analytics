@@ -20,6 +20,7 @@ ORDER BY department_attriation_rate DESC
 
 -- Query 3: 
 -- Advanced Analytics: Employee Headcount & Attrition Timeline
+CREATE OR REPLACE VIEW workforce_turnover_analytics AS
 WITH monthly_metrics AS (
     SELECT 
         DATE_TRUNC('month', "Employee_Start_Date"::date) as calendar_month,
